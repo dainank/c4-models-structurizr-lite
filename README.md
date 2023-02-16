@@ -8,9 +8,13 @@ git clone https://github.com/structurizr/ui.git structurizr-ui
 cd structurizr-lite
 ./ui.sh
 ./gradlew build
-docker run -it --rm -p 8080:8080 -v D:/Code/c4-models-structurizr-lite/data:/usr/local/structurizr structurizr/lite
+docker run -it --rm -p 8080:8080 -v PATH:/usr/local/structurizr structurizr/lite
 ```
 Now browse to to view diagrams: http://localhost:8080/workspace/diagrams
+
+Note that `PATH` refers to the location of the directory containing the `workspace.dsl` file. In my case, this was:
+
+ `docker run -it --rm -p 8080:8080 -v D:/Code/c4-models-structurizr-lite/data:/usr/local/structurizr structurizr/lite`
 
 Below follows information regarding the Structurizr program itself.
 
