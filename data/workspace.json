@@ -1,0 +1,134 @@
+{
+  "id" : 1,
+  "name" : "Name",
+  "description" : "Description",
+  "lastModifiedDate" : "2023-02-16T11:30:55Z",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc3R1ZGVudF91c2VyID0gcGVyc29uICJTdHVkZW50IFVzZXIiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIkEgc3R1ZGVudCBjdXN0b21lciBvZiB0aGUgc2VydmljZS4iCiAgICAgICAgICAgIHRhZ3MgIlVzZXIiCiAgICAgICAgfQogICAgICAgIHRlYWNoZXJfdXNlciA9IHBlcnNvbiAiVGVhY2hlciBVc2VyIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBIHRlYWNoZXIgY3VzdG9tZXIgb2YgdGhlIHNlcnZpY2UuIgogICAgICAgICAgICB0YWdzICJVc2VyIgogICAgICAgIH0KICAgICAgICBzb2Z0d2FyZVN5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJLbm93bGVkZ2UgTmF2aWdhdG9yIChLTikgU3lzdGVtIiB7CiAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uID0gY29udGFpbmVyICJXZWIgQXBwbGljYXRpb24iCiAgICAgICAgICAgIGFwaUdhdGV3YXlMYXllciA9IGNvbnRhaW5lciAiQVBJIEdhdGV3YXkgTGF5ZXIiCiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIKICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFsbG93cyB1c2VycyB0byB2aWV3LCBtYW5hZ2UgYW5kIHVzZSBLTiBxdWVzdGlvbnMuIgogICAgICAgICAgICB0YWdzICJUYWcgMSIKICAgICAgICB9CgogICAgICAgICMgZW1haWxfc3lzdGVtID0gcGVyc29uICJFLU1haWwgU3lzdGVtIiB7CiAgICAgICAgIyAgICAgZGVzY3JpcHRpb24gIlRoZSBpbnRlcm5hbCAoZnJvbSBzY2hvb2wpIE1pY3Jvc29mdCBFeGNoYW5nZSBFLU1haWwgU3lzdGVtIgogICAgICAgICMgfQoKICAgICAgICBzdHVkZW50X3VzZXIgLT4gd2ViQXBwbGljYXRpb24gIlZpZXcgYW5kIGFuc3dlciBLTiBxdWVzdGlvbnMiCiAgICAgICAgdGVhY2hlcl91c2VyIC0+IHdlYkFwcGxpY2F0aW9uICJNYW5hZ2UgdGhlIEtOIHF1ZXN0aW9ucyBhbmQgdmlldyBzdHVkZW50J3Mgc3RhdHMiCiAgICAgICAgd2ViQXBwbGljYXRpb24gLT4gZGF0YWJhc2UgIlVzZXMiCiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgc29mdHdhcmVTeXN0ZW0gIkRpYWdyYW0xIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJUYWcgMSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMTE2OGJkCiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgICAgICBzaGFwZSBSb3VuZGVkQm94CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiVXNlciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCBkYXJrQmx1ZQogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgc2hhcGUgUGVyc29uCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cgp9Cg=="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,User",
+      "name" : "Student User",
+      "description" : "A student customer of the service.",
+      "relationships" : [ {
+        "id" : "7",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "View and answer KN questions"
+      }, {
+        "id" : "8",
+        "sourceId" : "1",
+        "destinationId" : "3",
+        "description" : "View and answer KN questions",
+        "linkedRelationshipId" : "7"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person,User",
+      "name" : "Teacher User",
+      "description" : "A teacher customer of the service.",
+      "relationships" : [ {
+        "id" : "9",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Manage the KN questions and view student's stats"
+      }, {
+        "id" : "10",
+        "sourceId" : "2",
+        "destinationId" : "3",
+        "description" : "Manage the KN questions and view student's stats",
+        "linkedRelationshipId" : "9"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "3",
+      "tags" : "Element,Software System,Tag 1",
+      "name" : "Knowledge Navigator (KN) System",
+      "description" : "Allows users to view, manage and use KN questions.",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "4",
+        "tags" : "Element,Container",
+        "name" : "Web Application",
+        "relationships" : [ {
+          "id" : "11",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "6",
+          "description" : "Uses"
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container",
+        "name" : "API Gateway Layer",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "name" : "Database",
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemContextViews" : [ {
+      "softwareSystemId" : "3",
+      "key" : "Diagram1",
+      "order" : 1,
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "relationships" : [ {
+        "id" : "8"
+      }, {
+        "id" : "10"
+      } ],
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "2",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "3",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Tag 1",
+          "background" : "#1168bd",
+          "color" : "#ffffff",
+          "shape" : "RoundedBox"
+        }, {
+          "tag" : "User",
+          "background" : "#00008b",
+          "color" : "#ffffff",
+          "shape" : "Person"
+        } ]
+      },
+      "terminology" : { }
+    }
+  }
+}
