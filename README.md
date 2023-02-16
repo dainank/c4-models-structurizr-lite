@@ -1,5 +1,8 @@
-
 # Personal C4 Models made with Structurizr Lite
+## Viewing Diagrams in Repo:
+Please see: https://github.com/dainank/c4-models-structurizr-lite/tree/main/data/assets
+
+## Viewing Diagrams Locally:
 > Make sure [Docker](https://docs.docker.com/get-docker/) and [Java](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-do-I-install-Java-on-Windows) are installed on your system before trying to install and run this program.
 To install (build from source) and run:
 ```sh
