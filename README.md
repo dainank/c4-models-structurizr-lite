@@ -12,6 +12,9 @@ If you change this file (e.g. via your text editor or one of the Structurizr cli
 - [Documentation](https://structurizr.com/share/76352/documentation) ([source](docs))
 - [Issue tracker](https://github.com/structurizr/lite/issues)
 
+## Opening C4 Models
+`docker run -it --rm -p 8080:8080 -v D:/Code/c4-models-structurizr-lite/data:/usr/local/structurizr structurizr/lite`
+
 ## Building from source
 
 - Note 1: The HTML, JS, CSS, JSP, etc files are in a separate [structurizr/ui](https://github.com/structurizr/ui) repo because they are shared with the on-premises installation and cloud service.
