@@ -1,3 +1,19 @@
+
+# Personal C4 Models made with Structurizr Lite
+> Make sure [Docker](https://docs.docker.com/get-docker/) and [Java](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-do-I-install-Java-on-Windows) are installed on your system before trying to install and run this program.
+To install (build from source) and run:
+```sh
+git clone https://github.com/dainank/c4-models-structurizr-lite.git structurizr-lite
+git clone https://github.com/structurizr/ui.git structurizr-ui
+cd structurizr-lite
+./ui.sh
+./gradlew build
+docker run -it --rm -p 8080:8080 -v D:/Code/c4-models-structurizr-lite/data:/usr/local/structurizr structurizr/lite
+```
+Now browse to to view diagrams: http://localhost:8080/workspace/diagrams
+
+Below follows information regarding the Structurizr program itself.
+
 ![Structurizr](https://static.structurizr.com/img/structurizr-banner.png)
 
 # Structurizr Lite
