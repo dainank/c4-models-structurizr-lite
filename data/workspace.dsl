@@ -28,7 +28,7 @@ workspace "Knowledge Navigator" {
         }
 
         # relationships between people and software systems
-        customer -> internetKnowledgeNavigatorSystem "View, manages and answers KN questions using"
+        customer -> internetKnowledgeNavigatorSystem "Views, manages and answers KN questions using"
         internetKnowledgeNavigatorSystem -> mainframe "Gets account information from"
         internetKnowledgeNavigatorSystem -> email "Sends e-mail using"
         email -> customer "Sends e-mails to"
@@ -36,9 +36,9 @@ workspace "Knowledge Navigator" {
         itSupportStaff -> mainframe "Uses"
 
         # relationships to/from containers
-        customer -> webApplication "Visits bigbank.com/ib using" "HTTPS"
-        customer -> singlePageApplication "Views account balances, and makes payments using"
-        customer -> mobileApp "Views account balances, and makes payments using"
+        customer -> webApplication "Visits knowledgenavigator.com/organization/workspace using" "HTTPS"
+        customer -> singlePageApplication "Views, manages and answers KN questions using"
+        customer -> mobileApp "Views, manages and answers KN questions using"
         webApplication -> singlePageApplication "Delivers to the customer's web browser"
 
         # relationships to/from components
@@ -57,7 +57,7 @@ workspace "Knowledge Navigator" {
         emailComponent -> email "Sends e-mail using"
 
         deploymentEnvironment "Development" {
-            deploymentNode "Developer Laptop" "" "Microsoft Windows 10 or Apple macOS" {
+            deploymentNode "Developer Laptop" "" "Microsoft Windows 11" {
                 deploymentNode "Web Browser" "" "Chrome, Firefox, Safari, or Edge" {
                     developerSinglePageApplicationInstance = containerInstance singlePageApplication
                 }
@@ -73,8 +73,8 @@ workspace "Knowledge Navigator" {
                     }
                 }
             }
-            deploymentNode "Big Bank plc" "" "Big Bank plc data center" "" {
-                deploymentNode "bigbank-dev001" "" "" "" {
+            deploymentNode "Knowledge Navigator" "" "Knowledge Navigator data center" "" {
+                deploymentNode "knowledge-navigator-dev001" "" "" "" {
                     softwareSystemInstance mainframe
                 }
             }
@@ -91,29 +91,29 @@ workspace "Knowledge Navigator" {
                 }
             }
 
-            deploymentNode "Big Bank plc" "" "Big Bank plc data center" {
-                deploymentNode "bigbank-web***" "" "Ubuntu 16.04 LTS" "" 4 {
+            deploymentNode "Knowledge Navigator" "" "Knowledge Navigator data center" {
+                deploymentNode "knowledge-navigator-web***" "" "Ubuntu 20.04 LTS" "" 4 {
                     deploymentNode "Apache Tomcat" "" "Apache Tomcat 8.x" {
                         liveWebApplicationInstance = containerInstance webApplication
                     }
                 }
-                deploymentNode "bigbank-api***" "" "Ubuntu 16.04 LTS" "" 8 {
+                deploymentNode "knowledge-navigator-api***" "" "Ubuntu 20.04 LTS" "" 8 {
                     deploymentNode "Apache Tomcat" "" "Apache Tomcat 8.x" {
                         liveApiApplicationInstance = containerInstance apiApplication
                     }
                 }
 
-                deploymentNode "bigbank-db01" "" "Ubuntu 16.04 LTS" {
+                deploymentNode "knowledge-navigator-db01" "" "Ubuntu 20.04 LTS" {
                     primaryDatabaseServer = deploymentNode "Oracle - Primary" "" "Oracle 12c" {
                         livePrimaryDatabaseInstance = containerInstance database
                     }
                 }
-                deploymentNode "bigbank-db02" "" "Ubuntu 16.04 LTS" "Failover" {
+                deploymentNode "knowledge-navigator-db02" "" "Ubuntu 20.04 LTS" "Failover" {
                     secondaryDatabaseServer = deploymentNode "Oracle - Secondary" "" "Oracle 12c" "Failover" {
                         liveSecondaryDatabaseInstance = containerInstance database "Failover"
                     }
                 }
-                deploymentNode "bigbank-prod001" "" "" "" {
+                deploymentNode "knowledge-navigator-prod001" "" "" "" {
                     softwareSystemInstance mainframe
                 }
             }
