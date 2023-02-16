@@ -1,39 +1,48 @@
-workspace "Knowledge Navigator" {
+/*
+ * This is a combined version of the following workspaces:
+ *
+ * - "Big Bank plc - System Landscape" (https://structurizr.com/share/28201/)
+ * - "Big Bank plc - Internet Banking System" (https://structurizr.com/share/36141/)
+*/
+workspace "Big Bank plc" "This is an example workspace to illustrate the key features of Structurizr, via the DSL, based around a fictional online banking system." {
 
     model {
-        customer = person "Personal KN Customer" "A customer of the Knowledge Navigator system, with personal accounts." "Customer"
-        # customerStudent = person "A student customer of the service with a personal account." "Student Customer"
-        # customerTeacher = person "A teacher customer of the service with an elevated privileges personal account." "Teacher Customer"
+        customer = person "Personal Banking Customer" "A customer of the bank, with personal bank accounts." "Customer"
 
-        enterprise "Knowledge Navigator" {
-            itSupportStaff = person "Customer IT Service Staff" "Customer service staff within the school." "School IT Staff"
+        enterprise "Big Bank plc" {
+            supportStaff = person "Customer Service Staff" "Customer service staff within the bank." "Bank Staff"
+            backoffice = person "Back Office Staff" "Administration and support staff within the bank." "Bank Staff"
 
-            mainframe = softwaresystem "Mainframe School System" "Stores all of the core information about students, teachers, the school itself, etc." "Existing System"
+            mainframe = softwaresystem "Mainframe Banking System" "Stores all of the core banking information about customers, accounts, transactions, etc." "Existing System"
             email = softwaresystem "E-mail System" "The internal Microsoft Exchange e-mail system." "Existing System"
+            atm = softwaresystem "ATM" "Allows customers to withdraw cash." "Existing System"
 
-            internetKnowledgeNavigatorSystem = softwaresystem "Internet Knowledge Navigator System" "Allows customers to view information about their knowledge navigator, and view exercises." {
-                singlePageApplication = container "Single-Page Application" "Provides all of the Knowledge Navigator functionality to customers via their web browser." "TypeScript and Vue 3" "Web Browser"
-                mobileApp = container "Mobile App" "Provides a limited subset of the Internet Knowledge Navigator functionality to customers via their mobile device." "Flutter (TBD.)" "Mobile App"
-                webApplication = container "Web Application" "Delivers the static content and the Internet Knowledge Navigator single page application." "Vue 3 and Nuxt.js"
-                apiApplication = container "API Application" "Provides Internet Knowledge Navigator functionality via a JSON/HTTPS API." "Rust and Warp Framework" {
-                    signinController = component "Sign In Controller" "Allows users to sign in to the Internet Knowledge Navigator System." "Warp Rest Controller"
-                    accountsSummaryController = component "Accounts Summary Controller" "Provides customers with a summary of their Knowledge Navigator accounts." "Warp Rest Controller"
-                    resetPasswordController = component "Reset Password Controller" "Allows users to reset their passwords with a single use URL." "Warp Rest Controller"
-                    securityComponent = component "Security Component" "Provides functionality related to signing in, changing passwords, etc." "Warp Component"
-                    mainframeSchoolSystemFacade = component "Mainframe School System Facade" "A facade onto the mainframe School system." "Warp Component"
-                    emailComponent = component "E-mail Component" "Sends e-mails to users." "Warp Componenet"
+            internetBankingSystem = softwaresystem "Internet Banking System" "Allows customers to view information about their bank accounts, and make payments." {
+                singlePageApplication = container "Single-Page Application" "Provides all of the Internet banking functionality to customers via their web browser." "JavaScript and Angular" "Web Browser"
+                mobileApp = container "Mobile App" "Provides a limited subset of the Internet banking functionality to customers via their mobile device." "Xamarin" "Mobile App"
+                webApplication = container "Web Application" "Delivers the static content and the Internet banking single page application." "Java and Spring MVC"
+                apiApplication = container "API Application" "Provides Internet banking functionality via a JSON/HTTPS API." "Java and Spring MVC" {
+                    signinController = component "Sign In Controller" "Allows users to sign in to the Internet Banking System." "Spring MVC Rest Controller"
+                    accountsSummaryController = component "Accounts Summary Controller" "Provides customers with a summary of their bank accounts." "Spring MVC Rest Controller"
+                    resetPasswordController = component "Reset Password Controller" "Allows users to reset their passwords with a single use URL." "Spring MVC Rest Controller"
+                    securityComponent = component "Security Component" "Provides functionality related to signing in, changing passwords, etc." "Spring Bean"
+                    mainframeBankingSystemFacade = component "Mainframe Banking System Facade" "A facade onto the mainframe banking system." "Spring Bean"
+                    emailComponent = component "E-mail Component" "Sends e-mails to users." "Spring Bean"
                 }
-                database = container "Database" "Stores user registration information, hashed authentication credentials, access logs, etc." "TBD." "Database"
+                database = container "Database" "Stores user registration information, hashed authentication credentials, access logs, etc." "Oracle Database Schema" "Database"
             }
         }
 
         # relationships between people and software systems
-        customer -> internetKnowledgeNavigatorSystem "View, manages and answers KN questions using"
-        internetKnowledgeNavigatorSystem -> mainframe "Gets account information from"
-        internetKnowledgeNavigatorSystem -> email "Sends e-mail using"
+        customer -> internetBankingSystem "Views account balances, and makes payments using"
+        internetBankingSystem -> mainframe "Gets account information from, and makes payments using"
+        internetBankingSystem -> email "Sends e-mail using"
         email -> customer "Sends e-mails to"
-        customer -> itSupportStaff "Asks questions to" "Telephone/In Person"
-        itSupportStaff -> mainframe "Uses"
+        customer -> supportStaff "Asks questions to" "Telephone"
+        supportStaff -> mainframe "Uses"
+        customer -> atm "Withdraws cash using"
+        atm -> mainframe "Uses"
+        backoffice -> mainframe "Uses"
 
         # relationships to/from containers
         customer -> webApplication "Visits bigbank.com/ib using" "HTTPS"
@@ -49,11 +58,11 @@ workspace "Knowledge Navigator" {
         mobileApp -> accountsSummaryController "Makes API calls to" "JSON/HTTPS"
         mobileApp -> resetPasswordController "Makes API calls to" "JSON/HTTPS"
         signinController -> securityComponent "Uses"
-        accountsSummaryController -> mainframeSchoolSystemFacade "Uses"
+        accountsSummaryController -> mainframeBankingSystemFacade "Uses"
         resetPasswordController -> securityComponent "Uses"
         resetPasswordController -> emailComponent "Uses"
         securityComponent -> database "Reads from and writes to" "JDBC"
-        mainframeSchoolSystemFacade -> mainframe "Makes API calls to" "XML/HTTPS"
+        mainframeBankingSystemFacade -> mainframe "Makes API calls to" "XML/HTTPS"
         emailComponent -> email "Sends e-mail using"
 
         deploymentEnvironment "Development" {
@@ -128,10 +137,10 @@ workspace "Knowledge Navigator" {
             autoLayout
         }
 
-        systemcontext internetKnowledgeNavigatorSystem "SystemContext" {
+        systemcontext internetBankingSystem "SystemContext" {
             include *
             animation {
-                internetKnowledgeNavigatorSystem
+                internetBankingSystem
                 customer
                 mainframe
                 email
@@ -139,7 +148,7 @@ workspace "Knowledge Navigator" {
             autoLayout
         }
 
-        container internetKnowledgeNavigatorSystem "Containers" {
+        container internetBankingSystem "Containers" {
             include *
             animation {
                 customer mainframe email
@@ -157,7 +166,7 @@ workspace "Knowledge Navigator" {
             animation {
                 singlePageApplication mobileApp database email mainframe
                 signinController securityComponent
-                accountsSummaryController mainframeSchoolSystemFacade
+                accountsSummaryController mainframeBankingSystemFacade
                 resetPasswordController emailComponent
             }
             autoLayout
@@ -173,7 +182,7 @@ workspace "Knowledge Navigator" {
             autoLayout
         }
 
-        deployment internetKnowledgeNavigatorSystem "Development" "DevelopmentDeployment" {
+        deployment internetBankingSystem "Development" "DevelopmentDeployment" {
             include *
             animation {
                 developerSinglePageApplicationInstance
@@ -183,7 +192,7 @@ workspace "Knowledge Navigator" {
             autoLayout
         }
 
-        deployment internetKnowledgeNavigatorSystem "Live" "LiveDeployment" {
+        deployment internetBankingSystem "Live" "LiveDeployment" {
             include *
             animation {
                 liveSinglePageApplicationInstance
@@ -204,7 +213,7 @@ workspace "Knowledge Navigator" {
             element "Customer" {
                 background #08427b
             }
-            element "School IT Staff" {
+            element "Bank Staff" {
                 background #999999
             }
             element "Software System" {
