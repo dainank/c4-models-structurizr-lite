@@ -2,7 +2,7 @@
   "id" : 1,
   "name" : "Knowledge Navigator",
   "description" : "Description",
-  "lastModifiedDate" : "2023-02-16T12:11:33Z",
+  "lastModifiedDate" : "2023-02-16T12:18:45Z",
   "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlICJLbm93bGVkZ2UgTmF2aWdhdG9yIiB7CgogICAgbW9kZWwgewogICAgICAgIGN1c3RvbWVyID0gcGVyc29uICJQZXJzb25hbCBLTiBDdXN0b21lciIgIkEgY3VzdG9tZXIgb2YgdGhlIEtub3dsZWRnZSBOYXZpZ2F0b3Igc3lzdGVtLCB3aXRoIHBlcnNvbmFsIGFjY291bnRzLiIgIkN1c3RvbWVyIgogICAgICAgICMgY3VzdG9tZXJTdHVkZW50ID0gcGVyc29uICJBIHN0dWRlbnQgY3VzdG9tZXIgb2YgdGhlIHNlcnZpY2Ugd2l0aCBhIHBlcnNvbmFsIGFjY291bnQuIiAiU3R1ZGVudCBDdXN0b21lciIKICAgICAgICAjIGN1c3RvbWVyVGVhY2hlciA9IHBlcnNvbiAiQSB0ZWFjaGVyIGN1c3RvbWVyIG9mIHRoZSBzZXJ2aWNlIHdpdGggYW4gZWxldmF0ZWQgcHJpdmlsZWdlcyBwZXJzb25hbCBhY2NvdW50LiIgIlRlYWNoZXIgQ3VzdG9tZXIiCgogICAgICAgIGVudGVycHJpc2UgIktub3dsZWRnZSBOYXZpZ2F0b3IiIHsKICAgICAgICAgICAgaXRTdXBwb3J0U3RhZmYgPSBwZXJzb24gIkN1c3RvbWVyIElUIFNlcnZpY2UgU3RhZmYiICJDdXN0b21lciBzZXJ2aWNlIHN0YWZmIHdpdGhpbiB0aGUgc2Nob29sLiIgIlNjaG9vbCBJVCBTdGFmZiIKCiAgICAgICAgICAgIG1haW5mcmFtZSA9IHNvZnR3YXJlc3lzdGVtICJNYWluZnJhbWUgU2Nob29sIFN5c3RlbSIgIlN0b3JlcyBhbGwgb2YgdGhlIGNvcmUgaW5mb3JtYXRpb24gYWJvdXQgc3R1ZGVudHMsIHRlYWNoZXJzLCB0aGUgc2Nob29sIGl0c2VsZiwgZXRjLiIgIkV4aXN0aW5nIFN5c3RlbSIKICAgICAgICAgICAgZW1haWwgPSBzb2Z0d2FyZXN5c3RlbSAiRS1tYWlsIFN5c3RlbSIgIlRoZSBpbnRlcm5hbCBNaWNyb3NvZnQgRXhjaGFuZ2UgZS1tYWlsIHN5c3RlbS4iICJFeGlzdGluZyBTeXN0ZW0iCgogICAgICAgICAgICBpbnRlcm5ldEtub3dsZWRnZU5hdmlnYXRvclN5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJJbnRlcm5ldCBLbm93bGVkZ2UgTmF2aWdhdG9yIFN5c3RlbSIgIkFsbG93cyBjdXN0b21lcnMgdG8gdmlldyBpbmZvcm1hdGlvbiBhYm91dCB0aGVpciBrbm93bGVkZ2UgbmF2aWdhdG9yLCBhbmQgdmlldyBleGVyY2lzZXMuIiB7CiAgICAgICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNpbmdsZS1QYWdlIEFwcGxpY2F0aW9uIiAiUHJvdmlkZXMgYWxsIG9mIHRoZSBLbm93bGVkZ2UgTmF2aWdhdG9yIGZ1bmN0aW9uYWxpdHkgdG8gY3VzdG9tZXJzIHZpYSB0aGVpciB3ZWIgYnJvd3Nlci4iICJUeXBlU2NyaXB0IGFuZCBWdWUgMyIgIldlYiBCcm93c2VyIgogICAgICAgICAgICAgICAgbW9iaWxlQXBwID0gY29udGFpbmVyICJNb2JpbGUgQXBwIiAiUHJvdmlkZXMgYSBsaW1pdGVkIHN1YnNldCBvZiB0aGUgSW50ZXJuZXQgS25vd2xlZGdlIE5hdmlnYXRvciBmdW5jdGlvbmFsaXR5IHRvIGN1c3RvbWVycyB2aWEgdGhlaXIgbW9iaWxlIGRldmljZS4iICJGbHV0dGVyIChUQkQuKSIgIk1vYmlsZSBBcHAiCiAgICAgICAgICAgICAgICB3ZWJBcHBsaWNhdGlvbiA9IGNvbnRhaW5lciAiV2ViIEFwcGxpY2F0aW9uIiAiRGVsaXZlcnMgdGhlIHN0YXRpYyBjb250ZW50IGFuZCB0aGUgSW50ZXJuZXQgS25vd2xlZGdlIE5hdmlnYXRvciBzaW5nbGUgcGFnZSBhcHBsaWNhdGlvbi4iICJWdWUgMyBhbmQgTnV4dC5qcyIKICAgICAgICAgICAgICAgIGFwaUFwcGxpY2F0aW9uID0gY29udGFpbmVyICJBUEkgQXBwbGljYXRpb24iICJQcm92aWRlcyBJbnRlcm5ldCBLbm93bGVkZ2UgTmF2aWdhdG9yIGZ1bmN0aW9uYWxpdHkgdmlhIGEgSlNPTi9IVFRQUyBBUEkuIiAiUnVzdCBhbmQgV2FycCBGcmFtZXdvcmsiIHsKICAgICAgICAgICAgICAgICAgICBzaWduaW5Db250cm9sbGVyID0gY29tcG9uZW50ICJTaWduIEluIENvbnRyb2xsZXIiICJBbGxvd3MgdXNlcnMgdG8gc2lnbiBpbiB0byB0aGUgSW50ZXJuZXQgS25vd2xlZGdlIE5hdmlnYXRvciBTeXN0ZW0uIiAiV2FycCBSZXN0IENvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICAgICAgYWNjb3VudHNTdW1tYXJ5Q29udHJvbGxlciA9IGNvbXBvbmVudCAiQWNjb3VudHMgU3VtbWFyeSBDb250cm9sbGVyIiAiUHJvdmlkZXMgY3VzdG9tZXJzIHdpdGggYSBzdW1tYXJ5IG9mIHRoZWlyIEtub3dsZWRnZSBOYXZpZ2F0b3IgYWNjb3VudHMuIiAiV2FycCBSZXN0IENvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICAgICAgcmVzZXRQYXNzd29yZENvbnRyb2xsZXIgPSBjb21wb25lbnQgIlJlc2V0IFBhc3N3b3JkIENvbnRyb2xsZXIiICJBbGxvd3MgdXNlcnMgdG8gcmVzZXQgdGhlaXIgcGFzc3dvcmRzIHdpdGggYSBzaW5nbGUgdXNlIFVSTC4iICJXYXJwIFJlc3QgQ29udHJvbGxlciIKICAgICAgICAgICAgICAgICAgICBzZWN1cml0eUNvbXBvbmVudCA9IGNvbXBvbmVudCAiU2VjdXJpdHkgQ29tcG9uZW50IiAiUHJvdmlkZXMgZnVuY3Rpb25hbGl0eSByZWxhdGVkIHRvIHNpZ25pbmcgaW4sIGNoYW5naW5nIHBhc3N3b3JkcywgZXRjLiIgIldhcnAgQ29tcG9uZW50IgogICAgICAgICAgICAgICAgICAgIG1haW5mcmFtZVNjaG9vbFN5c3RlbUZhY2FkZSA9IGNvbXBvbmVudCAiTWFpbmZyYW1lIFNjaG9vbCBTeXN0ZW0gRmFjYWRlIiAiQSBmYWNhZGUgb250byB0aGUgbWFpbmZyYW1lIFNjaG9vbCBzeXN0ZW0uIiAiV2FycCBDb21wb25lbnQiCiAgICAgICAgICAgICAgICAgICAgZW1haWxDb21wb25lbnQgPSBjb21wb25lbnQgIkUtbWFpbCBDb21wb25lbnQiICJTZW5kcyBlLW1haWxzIHRvIHVzZXJzLiIgIldhcnAgQ29tcG9uZW5ldCIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgIlN0b3JlcyB1c2VyIHJlZ2lzdHJhdGlvbiBpbmZvcm1hdGlvbiwgaGFzaGVkIGF1dGhlbnRpY2F0aW9uIGNyZWRlbnRpYWxzLCBhY2Nlc3MgbG9ncywgZXRjLiIgIlRCRC4iICJEYXRhYmFzZSIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gcGVvcGxlIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgY3VzdG9tZXIgLT4gaW50ZXJuZXRLbm93bGVkZ2VOYXZpZ2F0b3JTeXN0ZW0gIlZpZXdzLCBtYW5hZ2VzIGFuZCBhbnN3ZXJzIEtOIHF1ZXN0aW9ucyB1c2luZyIKICAgICAgICBpbnRlcm5ldEtub3dsZWRnZU5hdmlnYXRvclN5c3RlbSAtPiBtYWluZnJhbWUgIkdldHMgYWNjb3VudCBpbmZvcm1hdGlvbiBmcm9tIgogICAgICAgIGludGVybmV0S25vd2xlZGdlTmF2aWdhdG9yU3lzdGVtIC0+IGVtYWlsICJTZW5kcyBlLW1haWwgdXNpbmciCiAgICAgICAgZW1haWwgLT4gY3VzdG9tZXIgIlNlbmRzIGUtbWFpbHMgdG8iCiAgICAgICAgY3VzdG9tZXIgLT4gaXRTdXBwb3J0U3RhZmYgIkFza3MgcXVlc3Rpb25zIHRvIiAiVGVsZXBob25lL0luIFBlcnNvbiIKICAgICAgICBpdFN1cHBvcnRTdGFmZiAtPiBtYWluZnJhbWUgIlVzZXMiCgogICAgICAgICMgcmVsYXRpb25zaGlwcyB0by9mcm9tIGNvbnRhaW5lcnMKICAgICAgICBjdXN0b21lciAtPiB3ZWJBcHBsaWNhdGlvbiAiVmlzaXRzIGtub3dsZWRnZW5hdmlnYXRvci5jb20vb3JnYW5pemF0aW9uL3dvcmtzcGFjZSB1c2luZyIgIkhUVFBTIgogICAgICAgIGN1c3RvbWVyIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiVmlld3MsIG1hbmFnZXMgYW5kIGFuc3dlcnMgS04gcXVlc3Rpb25zIHVzaW5nIgogICAgICAgIGN1c3RvbWVyIC0+IG1vYmlsZUFwcCAiVmlld3MsIG1hbmFnZXMgYW5kIGFuc3dlcnMgS04gcXVlc3Rpb25zIHVzaW5nIgogICAgICAgIHdlYkFwcGxpY2F0aW9uIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiRGVsaXZlcnMgdG8gdGhlIGN1c3RvbWVyJ3Mgd2ViIGJyb3dzZXIiCgogICAgICAgICMgcmVsYXRpb25zaGlwcyB0by9mcm9tIGNvbXBvbmVudHMKICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gc2lnbmluQ29udHJvbGxlciAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gYWNjb3VudHNTdW1tYXJ5Q29udHJvbGxlciAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gcmVzZXRQYXNzd29yZENvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgbW9iaWxlQXBwIC0+IHNpZ25pbkNvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgbW9iaWxlQXBwIC0+IGFjY291bnRzU3VtbWFyeUNvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgbW9iaWxlQXBwIC0+IHJlc2V0UGFzc3dvcmRDb250cm9sbGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgIHNpZ25pbkNvbnRyb2xsZXIgLT4gc2VjdXJpdHlDb21wb25lbnQgIlVzZXMiCiAgICAgICAgYWNjb3VudHNTdW1tYXJ5Q29udHJvbGxlciAtPiBtYWluZnJhbWVTY2hvb2xTeXN0ZW1GYWNhZGUgIlVzZXMiCiAgICAgICAgcmVzZXRQYXNzd29yZENvbnRyb2xsZXIgLT4gc2VjdXJpdHlDb21wb25lbnQgIlVzZXMiCiAgICAgICAgcmVzZXRQYXNzd29yZENvbnRyb2xsZXIgLT4gZW1haWxDb21wb25lbnQgIlVzZXMiCiAgICAgICAgc2VjdXJpdHlDb21wb25lbnQgLT4gZGF0YWJhc2UgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIgIkpEQkMiCiAgICAgICAgbWFpbmZyYW1lU2Nob29sU3lzdGVtRmFjYWRlIC0+IG1haW5mcmFtZSAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiWE1ML0hUVFBTIgogICAgICAgIGVtYWlsQ29tcG9uZW50IC0+IGVtYWlsICJTZW5kcyBlLW1haWwgdXNpbmciCgogICAgICAgIGRlcGxveW1lbnRFbnZpcm9ubWVudCAiRGV2ZWxvcG1lbnQiIHsKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRldmVsb3BlciBMYXB0b3AiICIiICJNaWNyb3NvZnQgV2luZG93cyAxMSIgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIldlYiBCcm93c2VyIiAiIiAiQ2hyb21lLCBGaXJlZm94LCBTYWZhcmksIG9yIEVkZ2UiIHsKICAgICAgICAgICAgICAgICAgICBkZXZlbG9wZXJTaW5nbGVQYWdlQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRvY2tlciBDb250YWluZXIgLSBXZWIgU2VydmVyIiAiIiAiRG9ja2VyIiB7CiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFwYWNoZSBUb21jYXQiICIiICJBcGFjaGUgVG9tY2F0IDgueCIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXZlbG9wZXJXZWJBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugd2ViQXBwbGljYXRpb24KICAgICAgICAgICAgICAgICAgICAgICAgZGV2ZWxvcGVyQXBpQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGFwaUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRvY2tlciBDb250YWluZXIgLSBEYXRhYmFzZSBTZXJ2ZXIiICIiICJEb2NrZXIiIHsKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiRGF0YWJhc2UgU2VydmVyIiAiIiAiT3JhY2xlIDEyYyIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXZlbG9wZXJEYXRhYmFzZUluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZGF0YWJhc2UKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIktub3dsZWRnZSBOYXZpZ2F0b3IiICIiICJLbm93bGVkZ2UgTmF2aWdhdG9yIGRhdGEgY2VudGVyIiAiIiB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAia25vd2xlZGdlLW5hdmlnYXRvci1kZXYwMDEiICIiICIiICIiIHsKICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIG1haW5mcmFtZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgIH0KCiAgICAgICAgZGVwbG95bWVudEVudmlyb25tZW50ICJMaXZlIiB7CiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJDdXN0b21lcidzIG1vYmlsZSBkZXZpY2UiICIiICJBcHBsZSBpT1Mgb3IgQW5kcm9pZCIgewogICAgICAgICAgICAgICAgbGl2ZU1vYmlsZUFwcEluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgbW9iaWxlQXBwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkN1c3RvbWVyJ3MgY29tcHV0ZXIiICIiICJNaWNyb3NvZnQgV2luZG93cyBvciBBcHBsZSBtYWNPUyIgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIldlYiBCcm93c2VyIiAiIiAiQ2hyb21lLCBGaXJlZm94LCBTYWZhcmksIG9yIEVkZ2UiIHsKICAgICAgICAgICAgICAgICAgICBsaXZlU2luZ2xlUGFnZUFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBzaW5nbGVQYWdlQXBwbGljYXRpb24KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIktub3dsZWRnZSBOYXZpZ2F0b3IiICIiICJLbm93bGVkZ2UgTmF2aWdhdG9yIGRhdGEgY2VudGVyIiB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAia25vd2xlZGdlLW5hdmlnYXRvci13ZWIqKioiICIiICJVYnVudHUgMjAuMDQgTFRTIiAiIiA0IHsKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQXBhY2hlIFRvbWNhdCIgIiIgIkFwYWNoZSBUb21jYXQgOC54IiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxpdmVXZWJBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugd2ViQXBwbGljYXRpb24KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAia25vd2xlZGdlLW5hdmlnYXRvci1hcGkqKioiICIiICJVYnVudHUgMjAuMDQgTFRTIiAiIiA4IHsKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQXBhY2hlIFRvbWNhdCIgIiIgIkFwYWNoZSBUb21jYXQgOC54IiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxpdmVBcGlBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgYXBpQXBwbGljYXRpb24KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgImtub3dsZWRnZS1uYXZpZ2F0b3ItZGIwMSIgIiIgIlVidW50dSAyMC4wNCBMVFMiIHsKICAgICAgICAgICAgICAgICAgICBwcmltYXJ5RGF0YWJhc2VTZXJ2ZXIgPSBkZXBsb3ltZW50Tm9kZSAiT3JhY2xlIC0gUHJpbWFyeSIgIiIgIk9yYWNsZSAxMmMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgbGl2ZVByaW1hcnlEYXRhYmFzZUluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZGF0YWJhc2UKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAia25vd2xlZGdlLW5hdmlnYXRvci1kYjAyIiAiIiAiVWJ1bnR1IDIwLjA0IExUUyIgIkZhaWxvdmVyIiB7CiAgICAgICAgICAgICAgICAgICAgc2Vjb25kYXJ5RGF0YWJhc2VTZXJ2ZXIgPSBkZXBsb3ltZW50Tm9kZSAiT3JhY2xlIC0gU2Vjb25kYXJ5IiAiIiAiT3JhY2xlIDEyYyIgIkZhaWxvdmVyIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxpdmVTZWNvbmRhcnlEYXRhYmFzZUluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgZGF0YWJhc2UgIkZhaWxvdmVyIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJrbm93bGVkZ2UtbmF2aWdhdG9yLXByb2QwMDEiICIiICIiICIiIHsKICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIG1haW5mcmFtZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBwcmltYXJ5RGF0YWJhc2VTZXJ2ZXIgLT4gc2Vjb25kYXJ5RGF0YWJhc2VTZXJ2ZXIgIlJlcGxpY2F0ZXMgZGF0YSB0byIKICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbWxhbmRzY2FwZSAiU3lzdGVtTGFuZHNjYXBlIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1jb250ZXh0IGludGVybmV0S25vd2xlZGdlTmF2aWdhdG9yU3lzdGVtICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgaW50ZXJuZXRLbm93bGVkZ2VOYXZpZ2F0b3JTeXN0ZW0KICAgICAgICAgICAgICAgIGN1c3RvbWVyCiAgICAgICAgICAgICAgICBtYWluZnJhbWUKICAgICAgICAgICAgICAgIGVtYWlsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGludGVybmV0S25vd2xlZGdlTmF2aWdhdG9yU3lzdGVtICJDb250YWluZXJzIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgY3VzdG9tZXIgbWFpbmZyYW1lIGVtYWlsCiAgICAgICAgICAgICAgICB3ZWJBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICBtb2JpbGVBcHAKICAgICAgICAgICAgICAgIGFwaUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICBkYXRhYmFzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICB9CgogICAgICAgIGNvbXBvbmVudCBhcGlBcHBsaWNhdGlvbiAiQ29tcG9uZW50cyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiBtb2JpbGVBcHAgZGF0YWJhc2UgZW1haWwgbWFpbmZyYW1lCiAgICAgICAgICAgICAgICBzaWduaW5Db250cm9sbGVyIHNlY3VyaXR5Q29tcG9uZW50CiAgICAgICAgICAgICAgICBhY2NvdW50c1N1bW1hcnlDb250cm9sbGVyIG1haW5mcmFtZVNjaG9vbFN5c3RlbUZhY2FkZQogICAgICAgICAgICAgICAgcmVzZXRQYXNzd29yZENvbnRyb2xsZXIgZW1haWxDb21wb25lbnQKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBkeW5hbWljIGFwaUFwcGxpY2F0aW9uICJTaWduSW4iICJTdW1tYXJpc2VzIGhvdyB0aGUgc2lnbiBpbiBmZWF0dXJlIHdvcmtzIGluIHRoZSBzaW5nbGUtcGFnZSBhcHBsaWNhdGlvbi4iIHsKICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uIC0+IHNpZ25pbkNvbnRyb2xsZXIgIlN1Ym1pdHMgY3JlZGVudGlhbHMgdG8iCiAgICAgICAgICAgIHNpZ25pbkNvbnRyb2xsZXIgLT4gc2VjdXJpdHlDb21wb25lbnQgIlZhbGlkYXRlcyBjcmVkZW50aWFscyB1c2luZyIKICAgICAgICAgICAgc2VjdXJpdHlDb21wb25lbnQgLT4gZGF0YWJhc2UgInNlbGVjdCAqIGZyb20gdXNlcnMgd2hlcmUgdXNlcm5hbWUgPSA/IgogICAgICAgICAgICBkYXRhYmFzZSAtPiBzZWN1cml0eUNvbXBvbmVudCAiUmV0dXJucyB1c2VyIGRhdGEgdG8iCiAgICAgICAgICAgIHNlY3VyaXR5Q29tcG9uZW50IC0+IHNpZ25pbkNvbnRyb2xsZXIgIlJldHVybnMgdHJ1ZSBpZiB0aGUgaGFzaGVkIHBhc3N3b3JkIG1hdGNoZXMiCiAgICAgICAgICAgIHNpZ25pbkNvbnRyb2xsZXIgLT4gc2luZ2xlUGFnZUFwcGxpY2F0aW9uICJTZW5kcyBiYWNrIGFuIGF1dGhlbnRpY2F0aW9uIHRva2VuIHRvIgogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBkZXBsb3ltZW50IGludGVybmV0S25vd2xlZGdlTmF2aWdhdG9yU3lzdGVtICJEZXZlbG9wbWVudCIgIkRldmVsb3BtZW50RGVwbG95bWVudCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGRldmVsb3BlclNpbmdsZVBhZ2VBcHBsaWNhdGlvbkluc3RhbmNlCiAgICAgICAgICAgICAgICBkZXZlbG9wZXJXZWJBcHBsaWNhdGlvbkluc3RhbmNlIGRldmVsb3BlckFwaUFwcGxpY2F0aW9uSW5zdGFuY2UKICAgICAgICAgICAgICAgIGRldmVsb3BlckRhdGFiYXNlSW5zdGFuY2UKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBkZXBsb3ltZW50IGludGVybmV0S25vd2xlZGdlTmF2aWdhdG9yU3lzdGVtICJMaXZlIiAiTGl2ZURlcGxveW1lbnQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBsaXZlU2luZ2xlUGFnZUFwcGxpY2F0aW9uSW5zdGFuY2UKICAgICAgICAgICAgICAgIGxpdmVNb2JpbGVBcHBJbnN0YW5jZQogICAgICAgICAgICAgICAgbGl2ZVdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgbGl2ZUFwaUFwcGxpY2F0aW9uSW5zdGFuY2UKICAgICAgICAgICAgICAgIGxpdmVQcmltYXJ5RGF0YWJhc2VJbnN0YW5jZQogICAgICAgICAgICAgICAgbGl2ZVNlY29uZGFyeURhdGFiYXNlSW5zdGFuY2UKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgfQoKICAgICAgICBzdHlsZXMgewogICAgICAgICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgICAgIGZvbnRTaXplIDIyCiAgICAgICAgICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJDdXN0b21lciIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjMDg0MjdiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiU2Nob29sIElUIFN0YWZmIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkV4aXN0aW5nIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODViYmYwCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRmFpbG92ZXIiIHsKICAgICAgICAgICAgICAgIG9wYWNpdHkgMjUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo="
@@ -18,24 +18,24 @@
       "name" : "Personal KN Customer",
       "description" : "A customer of the Knowledge Navigator system, with personal accounts.",
       "relationships" : [ {
-        "id" : "24",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "6",
-        "description" : "Views, manages and answers KN questions using"
-      }, {
-        "id" : "25",
-        "tags" : "Relationship",
-        "sourceId" : "1",
-        "destinationId" : "7",
-        "description" : "Views, manages and answers KN questions using"
-      }, {
         "id" : "21",
         "tags" : "Relationship",
         "sourceId" : "1",
         "destinationId" : "2",
         "description" : "Asks questions to",
         "technology" : "Telephone/In Person"
+      }, {
+        "id" : "17",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Views, manages and answers KN questions using"
+      }, {
+        "id" : "24",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Views, manages and answers KN questions using"
       }, {
         "id" : "23",
         "tags" : "Relationship",
@@ -44,10 +44,10 @@
         "description" : "Visits knowledgenavigator.com/organization/workspace using",
         "technology" : "HTTPS"
       }, {
-        "id" : "17",
+        "id" : "25",
         "tags" : "Relationship",
         "sourceId" : "1",
-        "destinationId" : "5",
+        "destinationId" : "7",
         "description" : "Views, manages and answers KN questions using"
       } ],
       "location" : "External"
@@ -66,46 +66,203 @@
       "location" : "Internal"
     } ],
     "softwareSystems" : [ {
-      "id" : "3",
-      "tags" : "Element,Software System,Existing System",
-      "name" : "Mainframe School System",
-      "description" : "Stores all of the core information about students, teachers, the school itself, etc.",
-      "location" : "Internal",
-      "documentation" : { }
-    }, {
-      "id" : "4",
-      "tags" : "Element,Software System,Existing System",
-      "name" : "E-mail System",
-      "description" : "The internal Microsoft Exchange e-mail system.",
-      "relationships" : [ {
-        "id" : "20",
-        "tags" : "Relationship",
-        "sourceId" : "4",
-        "destinationId" : "1",
-        "description" : "Sends e-mails to"
-      } ],
-      "location" : "Internal",
-      "documentation" : { }
-    }, {
       "id" : "5",
       "tags" : "Element,Software System",
       "name" : "Internet Knowledge Navigator System",
       "description" : "Allows customers to view information about their knowledge navigator, and view exercises.",
       "relationships" : [ {
-        "id" : "19",
-        "tags" : "Relationship",
-        "sourceId" : "5",
-        "destinationId" : "4",
-        "description" : "Sends e-mail using"
-      }, {
         "id" : "18",
         "tags" : "Relationship",
         "sourceId" : "5",
         "destinationId" : "3",
         "description" : "Gets account information from"
+      }, {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "5",
+        "destinationId" : "4",
+        "description" : "Sends e-mail using"
       } ],
       "location" : "Internal",
       "containers" : [ {
+        "id" : "9",
+        "tags" : "Element,Container",
+        "name" : "API Application",
+        "description" : "Provides Internet Knowledge Navigator functionality via a JSON/HTTPS API.",
+        "relationships" : [ {
+          "id" : "40",
+          "sourceId" : "9",
+          "destinationId" : "16",
+          "description" : "Reads from and writes to",
+          "technology" : "JDBC",
+          "linkedRelationshipId" : "39"
+        }, {
+          "id" : "42",
+          "sourceId" : "9",
+          "destinationId" : "3",
+          "description" : "Makes API calls to",
+          "technology" : "XML/HTTPS",
+          "linkedRelationshipId" : "41"
+        }, {
+          "id" : "44",
+          "sourceId" : "9",
+          "destinationId" : "4",
+          "description" : "Sends e-mail using",
+          "linkedRelationshipId" : "43"
+        } ],
+        "technology" : "Rust and Warp Framework",
+        "components" : [ {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "name" : "Mainframe School System Facade",
+          "description" : "A facade onto the mainframe School system.",
+          "relationships" : [ {
+            "id" : "41",
+            "tags" : "Relationship",
+            "sourceId" : "14",
+            "destinationId" : "3",
+            "description" : "Makes API calls to",
+            "technology" : "XML/HTTPS"
+          } ],
+          "technology" : "Warp Component",
+          "size" : 0
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "name" : "Security Component",
+          "description" : "Provides functionality related to signing in, changing passwords, etc.",
+          "relationships" : [ {
+            "id" : "39",
+            "tags" : "Relationship",
+            "sourceId" : "13",
+            "destinationId" : "16",
+            "description" : "Reads from and writes to",
+            "technology" : "JDBC"
+          } ],
+          "technology" : "Warp Component",
+          "size" : 0
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "name" : "Reset Password Controller",
+          "description" : "Allows users to reset their passwords with a single use URL.",
+          "relationships" : [ {
+            "id" : "38",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "15",
+            "description" : "Uses"
+          }, {
+            "id" : "37",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "13",
+            "description" : "Uses"
+          } ],
+          "technology" : "Warp Rest Controller",
+          "size" : 0
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component",
+          "name" : "Accounts Summary Controller",
+          "description" : "Provides customers with a summary of their Knowledge Navigator accounts.",
+          "relationships" : [ {
+            "id" : "36",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "14",
+            "description" : "Uses"
+          } ],
+          "technology" : "Warp Rest Controller",
+          "size" : 0
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "name" : "E-mail Component",
+          "description" : "Sends e-mails to users.",
+          "relationships" : [ {
+            "id" : "43",
+            "tags" : "Relationship",
+            "sourceId" : "15",
+            "destinationId" : "4",
+            "description" : "Sends e-mail using"
+          } ],
+          "technology" : "Warp Componenet",
+          "size" : 0
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "name" : "Sign In Controller",
+          "description" : "Allows users to sign in to the Internet Knowledge Navigator System.",
+          "relationships" : [ {
+            "id" : "35",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "13",
+            "description" : "Uses"
+          } ],
+          "technology" : "Warp Rest Controller",
+          "size" : 0
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,Web Browser",
+        "name" : "Single-Page Application",
+        "description" : "Provides all of the Knowledge Navigator functionality to customers via their web browser.",
+        "relationships" : [ {
+          "id" : "28",
+          "sourceId" : "6",
+          "destinationId" : "9",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS",
+          "linkedRelationshipId" : "27"
+        }, {
+          "id" : "30",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "12",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "29",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "11",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "27",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "10",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "TypeScript and Vue 3",
+        "documentation" : { }
+      }, {
+        "id" : "16",
+        "tags" : "Element,Container,Database",
+        "name" : "Database",
+        "description" : "Stores user registration information, hashed authentication credentials, access logs, etc.",
+        "technology" : "TBD.",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container",
+        "name" : "Web Application",
+        "description" : "Delivers the static content and the Internet Knowledge Navigator single page application.",
+        "relationships" : [ {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "8",
+          "destinationId" : "6",
+          "description" : "Delivers to the customer's web browser"
+        } ],
+        "technology" : "Vue 3 and Nuxt.js",
+        "documentation" : { }
+      }, {
         "id" : "7",
         "tags" : "Element,Container,Mobile App",
         "name" : "Mobile App",
@@ -141,188 +298,53 @@
         } ],
         "technology" : "Flutter (TBD.)",
         "documentation" : { }
-      }, {
-        "id" : "8",
-        "tags" : "Element,Container",
-        "name" : "Web Application",
-        "description" : "Delivers the static content and the Internet Knowledge Navigator single page application.",
-        "relationships" : [ {
-          "id" : "26",
-          "tags" : "Relationship",
-          "sourceId" : "8",
-          "destinationId" : "6",
-          "description" : "Delivers to the customer's web browser"
-        } ],
-        "technology" : "Vue 3 and Nuxt.js",
-        "documentation" : { }
-      }, {
-        "id" : "9",
-        "tags" : "Element,Container",
-        "name" : "API Application",
-        "description" : "Provides Internet Knowledge Navigator functionality via a JSON/HTTPS API.",
-        "relationships" : [ {
-          "id" : "42",
-          "sourceId" : "9",
-          "destinationId" : "3",
-          "description" : "Makes API calls to",
-          "technology" : "XML/HTTPS",
-          "linkedRelationshipId" : "41"
-        }, {
-          "id" : "40",
-          "sourceId" : "9",
-          "destinationId" : "16",
-          "description" : "Reads from and writes to",
-          "technology" : "JDBC",
-          "linkedRelationshipId" : "39"
-        }, {
-          "id" : "44",
-          "sourceId" : "9",
-          "destinationId" : "4",
-          "description" : "Sends e-mail using",
-          "linkedRelationshipId" : "43"
-        } ],
-        "technology" : "Rust and Warp Framework",
-        "components" : [ {
-          "id" : "14",
-          "tags" : "Element,Component",
-          "name" : "Mainframe School System Facade",
-          "description" : "A facade onto the mainframe School system.",
-          "relationships" : [ {
-            "id" : "41",
-            "tags" : "Relationship",
-            "sourceId" : "14",
-            "destinationId" : "3",
-            "description" : "Makes API calls to",
-            "technology" : "XML/HTTPS"
-          } ],
-          "technology" : "Warp Component",
-          "size" : 0
-        }, {
-          "id" : "15",
-          "tags" : "Element,Component",
-          "name" : "E-mail Component",
-          "description" : "Sends e-mails to users.",
-          "relationships" : [ {
-            "id" : "43",
-            "tags" : "Relationship",
-            "sourceId" : "15",
-            "destinationId" : "4",
-            "description" : "Sends e-mail using"
-          } ],
-          "technology" : "Warp Componenet",
-          "size" : 0
-        }, {
-          "id" : "10",
-          "tags" : "Element,Component",
-          "name" : "Sign In Controller",
-          "description" : "Allows users to sign in to the Internet Knowledge Navigator System.",
-          "relationships" : [ {
-            "id" : "35",
-            "tags" : "Relationship",
-            "sourceId" : "10",
-            "destinationId" : "13",
-            "description" : "Uses"
-          } ],
-          "technology" : "Warp Rest Controller",
-          "size" : 0
-        }, {
-          "id" : "13",
-          "tags" : "Element,Component",
-          "name" : "Security Component",
-          "description" : "Provides functionality related to signing in, changing passwords, etc.",
-          "relationships" : [ {
-            "id" : "39",
-            "tags" : "Relationship",
-            "sourceId" : "13",
-            "destinationId" : "16",
-            "description" : "Reads from and writes to",
-            "technology" : "JDBC"
-          } ],
-          "technology" : "Warp Component",
-          "size" : 0
-        }, {
-          "id" : "11",
-          "tags" : "Element,Component",
-          "name" : "Accounts Summary Controller",
-          "description" : "Provides customers with a summary of their Knowledge Navigator accounts.",
-          "relationships" : [ {
-            "id" : "36",
-            "tags" : "Relationship",
-            "sourceId" : "11",
-            "destinationId" : "14",
-            "description" : "Uses"
-          } ],
-          "technology" : "Warp Rest Controller",
-          "size" : 0
-        }, {
-          "id" : "12",
-          "tags" : "Element,Component",
-          "name" : "Reset Password Controller",
-          "description" : "Allows users to reset their passwords with a single use URL.",
-          "relationships" : [ {
-            "id" : "38",
-            "tags" : "Relationship",
-            "sourceId" : "12",
-            "destinationId" : "15",
-            "description" : "Uses"
-          }, {
-            "id" : "37",
-            "tags" : "Relationship",
-            "sourceId" : "12",
-            "destinationId" : "13",
-            "description" : "Uses"
-          } ],
-          "technology" : "Warp Rest Controller",
-          "size" : 0
-        } ],
-        "documentation" : { }
-      }, {
-        "id" : "6",
-        "tags" : "Element,Container,Web Browser",
-        "name" : "Single-Page Application",
-        "description" : "Provides all of the Knowledge Navigator functionality to customers via their web browser.",
-        "relationships" : [ {
-          "id" : "29",
-          "tags" : "Relationship",
-          "sourceId" : "6",
-          "destinationId" : "11",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "30",
-          "tags" : "Relationship",
-          "sourceId" : "6",
-          "destinationId" : "12",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "28",
-          "sourceId" : "6",
-          "destinationId" : "9",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS",
-          "linkedRelationshipId" : "27"
-        }, {
-          "id" : "27",
-          "tags" : "Relationship",
-          "sourceId" : "6",
-          "destinationId" : "10",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS"
-        } ],
-        "technology" : "TypeScript and Vue 3",
-        "documentation" : { }
-      }, {
-        "id" : "16",
-        "tags" : "Element,Container,Database",
-        "name" : "Database",
-        "description" : "Stores user registration information, hashed authentication credentials, access logs, etc.",
-        "technology" : "TBD.",
-        "documentation" : { }
       } ],
+      "documentation" : { }
+    }, {
+      "id" : "3",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "Mainframe School System",
+      "description" : "Stores all of the core information about students, teachers, the school itself, etc.",
+      "location" : "Internal",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System,Existing System",
+      "name" : "E-mail System",
+      "description" : "The internal Microsoft Exchange e-mail system.",
+      "relationships" : [ {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "1",
+        "description" : "Sends e-mails to"
+      } ],
+      "location" : "Internal",
       "documentation" : { }
     } ],
     "deploymentNodes" : [ {
+      "id" : "58",
+      "tags" : "Element,Deployment Node",
+      "name" : "Knowledge Navigator",
+      "environment" : "Development",
+      "technology" : "Knowledge Navigator data center",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "59",
+        "tags" : "Element,Deployment Node",
+        "name" : "knowledge-navigator-dev001",
+        "environment" : "Development",
+        "instances" : "1",
+        "softwareSystemInstances" : [ {
+          "id" : "60",
+          "tags" : "Software System Instance",
+          "environment" : "Development",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "softwareSystemId" : "3"
+        } ]
+      } ]
+    }, {
       "id" : "64",
       "tags" : "Element,Deployment Node",
       "name" : "Customer's computer",
@@ -340,7 +362,7 @@
           "id" : "66",
           "tags" : "Container Instance",
           "relationships" : [ {
-            "id" : "76",
+            "id" : "75",
             "sourceId" : "66",
             "destinationId" : "74",
             "description" : "Makes API calls to",
@@ -352,6 +374,29 @@
           "instanceId" : 1,
           "containerId" : "6"
         } ]
+      } ]
+    }, {
+      "id" : "62",
+      "tags" : "Element,Deployment Node",
+      "name" : "Customer's mobile device",
+      "environment" : "Live",
+      "technology" : "Apple iOS or Android",
+      "instances" : "1",
+      "containerInstances" : [ {
+        "id" : "63",
+        "tags" : "Container Instance",
+        "relationships" : [ {
+          "id" : "76",
+          "sourceId" : "63",
+          "destinationId" : "74",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS",
+          "linkedRelationshipId" : "32"
+        } ],
+        "environment" : "Live",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "containerId" : "7"
       } ]
     }, {
       "id" : "67",
@@ -383,6 +428,29 @@
           "instances" : "1",
           "containerInstances" : [ {
             "id" : "79",
+            "tags" : "Container Instance",
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "16"
+          } ]
+        } ]
+      }, {
+        "id" : "81",
+        "tags" : "Element,Deployment Node,Failover",
+        "name" : "knowledge-navigator-db02",
+        "environment" : "Live",
+        "technology" : "Ubuntu 20.04 LTS",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "82",
+          "tags" : "Element,Deployment Node,Failover",
+          "name" : "Oracle - Secondary",
+          "environment" : "Live",
+          "technology" : "Oracle 12c",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "83",
             "tags" : "Container Instance",
             "environment" : "Live",
             "deploymentGroups" : [ "Default" ],
@@ -435,29 +503,6 @@
           "softwareSystemId" : "3"
         } ]
       }, {
-        "id" : "81",
-        "tags" : "Element,Deployment Node,Failover",
-        "name" : "knowledge-navigator-db02",
-        "environment" : "Live",
-        "technology" : "Ubuntu 20.04 LTS",
-        "instances" : "1",
-        "children" : [ {
-          "id" : "82",
-          "tags" : "Element,Deployment Node,Failover",
-          "name" : "Oracle - Secondary",
-          "environment" : "Live",
-          "technology" : "Oracle 12c",
-          "instances" : "1",
-          "containerInstances" : [ {
-            "id" : "83",
-            "tags" : "Container Instance",
-            "environment" : "Live",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "16"
-          } ]
-        } ]
-      }, {
         "id" : "72",
         "tags" : "Element,Deployment Node",
         "name" : "knowledge-navigator-api***",
@@ -475,6 +520,13 @@
             "id" : "74",
             "tags" : "Container Instance",
             "relationships" : [ {
+              "id" : "80",
+              "sourceId" : "74",
+              "destinationId" : "79",
+              "description" : "Reads from and writes to",
+              "technology" : "JDBC",
+              "linkedRelationshipId" : "40"
+            }, {
               "id" : "87",
               "sourceId" : "74",
               "destinationId" : "86",
@@ -485,13 +537,6 @@
               "id" : "84",
               "sourceId" : "74",
               "destinationId" : "83",
-              "description" : "Reads from and writes to",
-              "technology" : "JDBC",
-              "linkedRelationshipId" : "40"
-            }, {
-              "id" : "80",
-              "sourceId" : "74",
-              "destinationId" : "79",
               "description" : "Reads from and writes to",
               "technology" : "JDBC",
               "linkedRelationshipId" : "40"
@@ -511,29 +556,6 @@
       "technology" : "Microsoft Windows 11",
       "instances" : "1",
       "children" : [ {
-        "id" : "46",
-        "tags" : "Element,Deployment Node",
-        "name" : "Web Browser",
-        "environment" : "Development",
-        "technology" : "Chrome, Firefox, Safari, or Edge",
-        "instances" : "1",
-        "containerInstances" : [ {
-          "id" : "47",
-          "tags" : "Container Instance",
-          "relationships" : [ {
-            "id" : "53",
-            "sourceId" : "47",
-            "destinationId" : "52",
-            "description" : "Makes API calls to",
-            "technology" : "JSON/HTTPS",
-            "linkedRelationshipId" : "28"
-          } ],
-          "environment" : "Development",
-          "deploymentGroups" : [ "Default" ],
-          "instanceId" : 1,
-          "containerId" : "6"
-        } ]
-      }, {
         "id" : "48",
         "tags" : "Element,Deployment Node",
         "name" : "Docker Container - Web Server",
@@ -548,28 +570,6 @@
           "technology" : "Apache Tomcat 8.x",
           "instances" : "1",
           "containerInstances" : [ {
-            "id" : "52",
-            "tags" : "Container Instance",
-            "relationships" : [ {
-              "id" : "61",
-              "sourceId" : "52",
-              "destinationId" : "60",
-              "description" : "Makes API calls to",
-              "technology" : "XML/HTTPS",
-              "linkedRelationshipId" : "42"
-            }, {
-              "id" : "57",
-              "sourceId" : "52",
-              "destinationId" : "56",
-              "description" : "Reads from and writes to",
-              "technology" : "JDBC",
-              "linkedRelationshipId" : "40"
-            } ],
-            "environment" : "Development",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "9"
-          }, {
             "id" : "50",
             "tags" : "Container Instance",
             "relationships" : [ {
@@ -583,6 +583,28 @@
             "deploymentGroups" : [ "Default" ],
             "instanceId" : 1,
             "containerId" : "8"
+          }, {
+            "id" : "52",
+            "tags" : "Container Instance",
+            "relationships" : [ {
+              "id" : "57",
+              "sourceId" : "52",
+              "destinationId" : "56",
+              "description" : "Reads from and writes to",
+              "technology" : "JDBC",
+              "linkedRelationshipId" : "40"
+            }, {
+              "id" : "61",
+              "sourceId" : "52",
+              "destinationId" : "60",
+              "description" : "Makes API calls to",
+              "technology" : "XML/HTTPS",
+              "linkedRelationshipId" : "42"
+            } ],
+            "environment" : "Development",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "9"
           } ]
         } ]
       }, {
@@ -608,51 +630,29 @@
             "containerId" : "16"
           } ]
         } ]
-      } ]
-    }, {
-      "id" : "58",
-      "tags" : "Element,Deployment Node",
-      "name" : "Knowledge Navigator",
-      "environment" : "Development",
-      "technology" : "Knowledge Navigator data center",
-      "instances" : "1",
-      "children" : [ {
-        "id" : "59",
+      }, {
+        "id" : "46",
         "tags" : "Element,Deployment Node",
-        "name" : "knowledge-navigator-dev001",
+        "name" : "Web Browser",
         "environment" : "Development",
+        "technology" : "Chrome, Firefox, Safari, or Edge",
         "instances" : "1",
-        "softwareSystemInstances" : [ {
-          "id" : "60",
-          "tags" : "Software System Instance",
+        "containerInstances" : [ {
+          "id" : "47",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "53",
+            "sourceId" : "47",
+            "destinationId" : "52",
+            "description" : "Makes API calls to",
+            "technology" : "JSON/HTTPS",
+            "linkedRelationshipId" : "28"
+          } ],
           "environment" : "Development",
           "deploymentGroups" : [ "Default" ],
           "instanceId" : 1,
-          "softwareSystemId" : "3"
+          "containerId" : "6"
         } ]
-      } ]
-    }, {
-      "id" : "62",
-      "tags" : "Element,Deployment Node",
-      "name" : "Customer's mobile device",
-      "environment" : "Live",
-      "technology" : "Apple iOS or Android",
-      "instances" : "1",
-      "containerInstances" : [ {
-        "id" : "63",
-        "tags" : "Container Instance",
-        "relationships" : [ {
-          "id" : "75",
-          "sourceId" : "63",
-          "destinationId" : "74",
-          "description" : "Makes API calls to",
-          "technology" : "JSON/HTTPS",
-          "linkedRelationshipId" : "32"
-        } ],
-        "environment" : "Live",
-        "deploymentGroups" : [ "Default" ],
-        "instanceId" : 1,
-        "containerId" : "7"
       } ]
     } ]
   },
@@ -866,9 +866,9 @@
       }, {
         "id" : "26"
       }, {
-        "id" : "25"
-      }, {
         "id" : "40"
+      }, {
+        "id" : "25"
       }, {
         "id" : "24",
         "vertices" : [ {
@@ -879,6 +879,8 @@
           "y" : 1508
         } ]
       }, {
+        "id" : "42"
+      }, {
         "id" : "23",
         "vertices" : [ {
           "x" : 1586,
@@ -888,10 +890,6 @@
           "y" : 1008
         } ]
       }, {
-        "id" : "42"
-      }, {
-        "id" : "32"
-      }, {
         "id" : "44",
         "vertices" : [ {
           "x" : 2287,
@@ -900,6 +898,8 @@
           "x" : 2287,
           "y" : 754
         } ]
+      }, {
+        "id" : "32"
       }, {
         "id" : "20"
       } ]
@@ -1113,98 +1113,6 @@
     } ],
     "deploymentViews" : [ {
       "softwareSystemId" : "5",
-      "key" : "DevelopmentDeployment",
-      "order" : 6,
-      "paperSize" : "A3_Landscape",
-      "dimensions" : {
-        "width" : 3175,
-        "height" : 3016
-      },
-      "automaticLayout" : {
-        "implementation" : "Graphviz",
-        "rankDirection" : "TopBottom",
-        "rankSeparation" : 300,
-        "nodeSeparation" : 300,
-        "edgeSeparation" : 0,
-        "vertices" : false
-      },
-      "environment" : "Development",
-      "animations" : [ {
-        "order" : 1,
-        "elements" : [ "45", "46", "47" ]
-      }, {
-        "order" : 2,
-        "elements" : [ "48", "49", "50", "52" ],
-        "relationships" : [ "51", "53" ]
-      }, {
-        "order" : 3,
-        "elements" : [ "55", "56", "54" ],
-        "relationships" : [ "57" ]
-      } ],
-      "elements" : [ {
-        "id" : "55",
-        "x" : 175,
-        "y" : 175
-      }, {
-        "id" : "56",
-        "x" : 1287,
-        "y" : 2179
-      }, {
-        "id" : "45",
-        "x" : 175,
-        "y" : 175
-      }, {
-        "id" : "46",
-        "x" : 175,
-        "y" : 175
-      }, {
-        "id" : "47",
-        "x" : 912,
-        "y" : 550
-      }, {
-        "id" : "58",
-        "x" : 175,
-        "y" : 175
-      }, {
-        "id" : "48",
-        "x" : 175,
-        "y" : 175
-      }, {
-        "id" : "59",
-        "x" : 175,
-        "y" : 175
-      }, {
-        "id" : "49",
-        "x" : 175,
-        "y" : 175
-      }, {
-        "id" : "60",
-        "x" : 2291,
-        "y" : 2179
-      }, {
-        "id" : "50",
-        "x" : 537,
-        "y" : 1312
-      }, {
-        "id" : "52",
-        "x" : 1287,
-        "y" : 1312
-      }, {
-        "id" : "54",
-        "x" : 175,
-        "y" : 175
-      } ],
-      "relationships" : [ {
-        "id" : "61"
-      }, {
-        "id" : "51"
-      }, {
-        "id" : "53"
-      }, {
-        "id" : "57"
-      } ]
-    }, {
-      "softwareSystemId" : "5",
       "key" : "LiveDeployment",
       "order" : 7,
       "paperSize" : "A3_Portrait",
@@ -1258,7 +1166,7 @@
         "y" : 175
       }, {
         "id" : "79",
-        "x" : 1504,
+        "x" : 650,
         "y" : 2179
       }, {
         "id" : "68",
@@ -1282,7 +1190,7 @@
         "y" : 175
       }, {
         "id" : "83",
-        "x" : 1233,
+        "x" : 591,
         "y" : 3045
       }, {
         "id" : "72",
@@ -1314,7 +1222,7 @@
         "y" : 175
       }, {
         "id" : "86",
-        "x" : 433,
+        "x" : 1516,
         "y" : 2179
       }, {
         "id" : "65",
@@ -1322,34 +1230,137 @@
         "y" : 175
       } ],
       "relationships" : [ {
-        "id" : "80",
-        "vertices" : [ {
-          "x" : 1266,
-          "y" : 1854
-        } ]
+        "id" : "80"
       }, {
         "id" : "71"
       }, {
-        "id" : "87"
-      }, {
-        "id" : "84",
+        "id" : "87",
         "vertices" : [ {
-          "x" : 1062,
+          "x" : 1279,
           "y" : 1854
         } ]
       }, {
-        "id" : "76",
+        "id" : "84",
         "vertices" : [ {
-          "x" : 2133,
+          "x" : 470,
+          "y" : 1854
+        }, {
+          "x" : 470,
+          "y" : 2687
+        } ]
+      }, {
+        "id" : "76"
+      }, {
+        "id" : "75",
+        "vertices" : [ {
+          "x" : 2145,
           "y" : 1854
         }, {
           "x" : 1329,
           "y" : 1820
         } ]
       }, {
-        "id" : "75"
-      }, {
         "id" : "88"
+      } ]
+    }, {
+      "softwareSystemId" : "5",
+      "key" : "DevelopmentDeployment",
+      "order" : 6,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 3187,
+        "height" : 2416
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Development",
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "45", "46", "47" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "48", "49", "50", "52" ],
+        "relationships" : [ "51", "53" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "55", "56", "54" ],
+        "relationships" : [ "57" ]
+      } ],
+      "elements" : [ {
+        "id" : "55",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "56",
+        "x" : 537,
+        "y" : 1579
+      }, {
+        "id" : "45",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "46",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "47",
+        "x" : 1404,
+        "y" : 1579
+      }, {
+        "id" : "58",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "48",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "59",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "49",
+        "x" : 175,
+        "y" : 175
+      }, {
+        "id" : "60",
+        "x" : 2304,
+        "y" : 1579
+      }, {
+        "id" : "50",
+        "x" : 550,
+        "y" : 712
+      }, {
+        "id" : "52",
+        "x" : 1300,
+        "y" : 712
+      }, {
+        "id" : "54",
+        "x" : 175,
+        "y" : 175
+      } ],
+      "relationships" : [ {
+        "id" : "61",
+        "vertices" : [ {
+          "x" : 2033,
+          "y" : 1254
+        } ]
+      }, {
+        "id" : "51",
+        "vertices" : [ {
+          "x" : 1166,
+          "y" : 1254
+        } ]
+      }, {
+        "id" : "53"
+      }, {
+        "id" : "57"
       } ]
     } ],
     "configuration" : {
